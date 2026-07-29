@@ -1,7 +1,12 @@
 @charset "utf-8";
 
+html {
+    background-color: rgb(246, 238, 229);
+} 
+
+
 h1 {
-    color: #ffffff;
+    color: #503a03;
     font-family: "メイリオ", "Hiragino Sans", sans-serif;
     font-size: 100%;
 }
@@ -100,6 +105,11 @@ img {
     height: auto;
 }
 
+nav article section h1 a {
+    text-decoration: none;
+    color: #503a03;
+}
+
 @media (max-width:1024px) {
     header img {
         float: none;
@@ -131,6 +141,12 @@ nav ul a:hover {
     color: #ffcc00;
 }
 
+article li a {
+    text-decoration: none;
+    color: #503a03;
+}
+
+
 article li a:visited {
     color: #231a02;
 }
@@ -138,6 +154,10 @@ article li a:visited {
 article li a:active {
     color: azure;
 }
+
+
+
+
 
 /* 959px以下の場合 */
 @media(max-width:959px) {
